@@ -20,13 +20,13 @@ If you have an NVIDIA GPU run the following:
 
 ```bash
 conda install cudatoolkit=10.0
-pip install tensorflow-gpu==1.15 gdown
+pip install tensorflow-gpu==1.15 gdown librosa inflect unidecode scipy torch matplotlib
 ```
 
 Otherwise run these:
 
 ```bash
-pip install tensorflow==1.15 gdown
+pip install tensorflow==1.15 gdown librosa inflect unidecode scipy torch matplotlib
 ```
 
 ## Usage
