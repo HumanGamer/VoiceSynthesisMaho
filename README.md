@@ -7,7 +7,7 @@
 
 ## Initial Setup
 
-Run the following commands:
+Run the following commands in the Anaconda prompt:
 
 ```bash
 git clone --recursive https://github.com/HumanGamer/VoiceSynthesisMaho
@@ -29,13 +29,15 @@ Otherwise run these:
 pip install tensorflow==1.15 gdown
 ```
 
-## When re-using
+## Usage
+
+Get into the environment with the following command:
 
 ```bash
 conda activate maho_ai
 ```
 
-## Usage
+Then run the following:
 
 ```bash
 python synthesis.py
