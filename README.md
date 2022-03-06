@@ -10,8 +10,8 @@
 ```bash
 git clone --recursive https://github.com/HumanGamer/VoiceSynthesisMaho
 cd VoiceSynthesisMaho
-conda create -n newtest python=3.7
-conda activate newtest
+conda create -n maho_ai python=3.7
+conda activate maho_ai
 conda install cudatoolkit=10.0
 pip install tensorflow-gpu==1.15 gdown
 ```
@@ -19,7 +19,7 @@ pip install tensorflow-gpu==1.15 gdown
 ## When re-using
 
 ```bash
-conda activate newtest
+conda activate maho_ai
 ```
 
 ## Usage
