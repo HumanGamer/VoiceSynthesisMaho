@@ -7,6 +7,8 @@
 
 ## Initial Setup
 
+Run the following commands:
+
 ```bash
 git clone --recursive https://github.com/HumanGamer/VoiceSynthesisMaho
 cd VoiceSynthesisMaho
@@ -14,14 +16,14 @@ conda create -n maho_ai python=3.7
 conda activate maho_ai
 ```
 
-### NVIDIA GPUS
+If you have an NVIDIA GPU run the following:
 
 ```bash
 conda install cudatoolkit=10.0
 pip install tensorflow-gpu==1.15 gdown
 ```
 
-### No NVIDIA GPU
+Otherwise run these:
 
 ```bash
 pip install tensorflow==1.15 gdown
