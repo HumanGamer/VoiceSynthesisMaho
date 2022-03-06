@@ -12,8 +12,19 @@ git clone --recursive https://github.com/HumanGamer/VoiceSynthesisMaho
 cd VoiceSynthesisMaho
 conda create -n maho_ai python=3.7
 conda activate maho_ai
+```
+
+### NVIDIA GPUS
+
+```bash
 conda install cudatoolkit=10.0
 pip install tensorflow-gpu==1.15 gdown
+```
+
+### No NVIDIA GPU
+
+```bash
+pip install tensorflow==1.15 gdown
 ```
 
 ## When re-using
